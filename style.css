@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #2e2e2e;
+    font-family: 'Inter', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.subs {
+    min-height: 46px;
+    background-color: #ffd741;
+    /* text-align: center; */
+    padding: 0 0;
+    font-family: 'Inter';
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    width: 99vw;
+
+}
+
+.subs p {
+    font-weight: 500;
+}
+
+.subs a {
+    padding-left: 10px;
+    text-decoration: underline;
+    font-weight: 650;
+}
+
+.subs p span {
+    font-weight: 650;
+}
+
+.menu {
+    height: 76px;
+    width: 86vw;
+    border: 1px solid #cecece;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* text-align: center; */
+    /* background-color: #cecece; */
+
+}
+
+.menu button {
+    padding: 10px 15px;
+    border: 2px solid #f6f6f6;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 550;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #cecece;
+}
+
+.logo {
+    margin-right: 180px;
+}
+
+.last {
+    margin-right: 90px;
+}
+
+.download {
+    background-color: #ffd741;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 22px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    cursor: pointer;
+    background-color: #ffd641b4;
+    color: #2e2e2ebc;
+}
+
+.menu div:hover {
+    background-color: #f6f6f691;
+    color: #2e2e2ea9;
+}
+
+.search {
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+
+
+
+header {
+    margin-top: 90px;
+    text-align: center;
+}
+
+header h2 {
+    margin-bottom: 8px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #2e2e2e;
+
+}
+
+header div {
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+
+
+
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+
+}
+
+.flex1 div {
+    background-color: #F2F0EC;
+    margin: 19px;
+    width: 372px;
+    height: 175px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.version {
+
+    font-size: 12px;
+    font-weight: 600;
+    color: #b5b4b3;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.flex1 div a {
+    background-color: #ffd741;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.flex1 div a:hover {
+    background-color: #f7cb14;
+    cursor: pointer;
+}
+
+.hash {
+
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.chash {
+    font-size: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buynow {
+    padding-top: 12px;
+
+    text-align: center;
+    font-size: 18px;
+}
+
+.buynow a {
+    color: #00b6d1;
+    text-decoration: black underline;
+}
+
+
+
+
+.grid1 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 95px;
+    padding-left: 95px;
+    background-color: #f2f0ec;
+    margin-top: 60px;
+    gap: 20px;
+    padding-bottom: 70px;
+
+
+
+}
+
+h3 {
+    padding: 60px 0;
+    grid-column: 1/4;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+
+.tutorial img {
+    border-radius: 5px;
+
+
+}
+
+.tutorial h4 {
+    text-align: left;
+
+    padding: 10px 6px;
+
+}
+
+.tutorial p {
+    text-align: left;
+    padding-left: 6px;
+
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+
+}
+
+.faq {
+    border: 1px solid #545454;
+    padding: 12px 19px;
+    margin: 20px 0;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+
+
+footer {
+
+    background-color: #f2f0ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info div {
+    width: 400.5px;
+    font-size: 14px;
+    padding-top: 50px;
+
+}
+
+.info {
+    display: flex;
+    margin: 0px 340px;
+    gap: 85px;
+
+
+}
+
+.info_h {
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 18px;
+
+}
+
+.box {
+    padding-top: 27px;
+    padding-right: 37px;
+    padding-bottom: 37px;
+    padding-left: 37px;
+
+
+    margin-top: 120px;
+    margin-bottom: 50px;
+    background-color: #232323;
+    color: white;
+    height: 45vh;
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1.5fr 1fr 1fr;
+
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+.box div {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.container p {
+    margin-top: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container2 h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container2 div {
+    color: #b5b4b3;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.container2 div:hover {
+    color: white;
+}
+
+.news h4 {
+    color: white;
+    font-size: 14px;
+}
+
+.news div {
+    color: #b5b4b3;
+}
+
+.box_subs {
+    margin-top: 10px;
+    padding: 4px;
+    width: 305px;
+    background: rgba(59, 59, 59, 1);
+    border-radius: 4px;
+    display: flex;
+}
+
+.box_subs input {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(59, 59, 59, 1);
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+
+}
+
+.box_subs button {
+    background-color: #ffd741;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 0px solid black;
+}
+
+.box_subs button:hover {
+    background-color: #ffd641b4
+}
+
+.copyright {
+    grid-column: 4 / 6;
+    grid-row: 2;
+
+    justify-self: end;
+    align-self: end;
+
+}
